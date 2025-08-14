@@ -2,7 +2,6 @@ import { Route, Routes } from "react-router";
 import HomePage from "./pages/HomePage";
 import CreateNote from "./pages/CreateNote";
 import NoteDetail from "./pages/NoteDetail";
-import toast from "react-hot-toast";
 
 const App = () => {
   

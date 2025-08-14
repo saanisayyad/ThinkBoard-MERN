@@ -1,4 +1,4 @@
-// import { ArrowLeftIcon } from "lucide-react";
+import { ArrowLeftIcon } from "lucide-react";
 import { useState } from "react";
 import toast from "react-hot-toast";
 import { Link, useNavigate } from "react-router";
@@ -48,7 +48,7 @@ const CreateNote = () => {
             to={"/"}
             className="bg-gray-600 flex items-center mb-5 gap-1 max-w-max p-2 rounded-3xl hover:scale-105 duration-300"
           >
-            {/* <ArrowLeftIcon className="size-5" /> */}
+            <ArrowLeftIcon className="size-5" />
             Back To Notes
           </Link>
 

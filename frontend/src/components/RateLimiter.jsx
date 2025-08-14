@@ -1,4 +1,4 @@
-// import { ZapIcon } from 'lucide-react'
+import { ZapIcon } from 'lucide-react'
 
 const RateLimiter = () => {
   return (
@@ -6,7 +6,7 @@ const RateLimiter = () => {
         <div className='bg-gray-400 rounded-3xl shadow-md'>
             <div className='flex flex-col md:flex-row items-center p-6'>
                 <div className='bg-gray-500 p-4 rounded-full mb-4 md:mb-0 md:mr-6'>
-                    {/* <ZapIcon className='size-10'/> */}
+                    <ZapIcon className='size-10'/>
                 </div>
                 <div className='flex-1 text-center md:text-left'>
                     <h3 className='text-xl font-bold mb-2'>

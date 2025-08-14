@@ -1,4 +1,4 @@
-// import { ArrowLeftIcon, LoaderIcon, Trash2Icon } from "lucide-react";
+import { ArrowLeftIcon, LoaderIcon, Trash2Icon } from "lucide-react";
 import { useEffect } from "react";
 import { useState } from "react";
 import toast from "react-hot-toast";
@@ -61,7 +61,7 @@ const NoteDetail = () => {
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        {/* <LoaderIcon className="animate-spin size-10" /> */}
+        <LoaderIcon className="animate-spin size-10" />
       </div>
     );
   }
@@ -72,11 +72,11 @@ const NoteDetail = () => {
         <div className="max-w-2xl mx-auto">
           <div className="flex items-center justify-between mb-5">
             <Link to="/" className="bg-gray-600 flex items-center gap-1 max-w-max p-2 rounded-3xl hover:scale-105 duration-300">
-              {/* <ArrowLeftIcon className="h-5 w-5" /> */}
+              <ArrowLeftIcon className="h-5 w-5" />
               Back to Notes
             </Link>
             <button onClick={handleDelete} className="bg-gray-600 flex items-center gap-1 max-w-max p-2 rounded-3xl hover:scale-105 duration-300">
-              {/* <Trash2Icon className="h-5 w-5" /> */}
+              <Trash2Icon className="h-5 w-5" />
               Delete Note
             </button>
           </div>

@@ -1,4 +1,4 @@
-// import { PenSquareIcon, Trash2Icon } from "lucide-react";
+import { PenSquareIcon, Trash2Icon } from "lucide-react";
 import { Link } from "react-router";
 import { formatDate } from "../lib/util";
 import api from "../lib/axios";
@@ -31,12 +31,12 @@ const NoteCard = ({ note, setNotes }) => {
             {formatDate(new Date(note.createdAt))}
           </span>
           <div className="flex items-center gap-3">
-            {/* <PenSquareIcon className="size-4 hover:scale-110 duration-300" /> */}
+            <PenSquareIcon className="size-4 hover:scale-110 duration-300" />
             <button
               className=""
               onClick={(e) => handleDelete(e, note._id)}
             >
-              {/* <Trash2Icon className="size-4 hover:scale-110 duration-300" /> */}
+              <Trash2Icon className="size-4 hover:scale-110 duration-300" />
             </button>
           </div>
         </div>
