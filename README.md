@@ -217,4 +217,4 @@ This project currently uses the ISC license as declared by the backend package c
 
 ---
 
-Built with the MERN stack by **Saan I Sayyad**.
+Built with the MERN stack by **Mohammadsaani Sayyad**.
